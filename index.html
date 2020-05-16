@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>IGTI Desafio 1</title>
+  </head>
+  <body>
+    <h1>RGB Range</h1>
+    <div class="grid">
+      <div class="grid-item"><strong>(R) Red :</strong></div>
+      <div class="grid-item">
+        <input type="range" id="red" min="0" max="255" />
+      </div>
+      <div class="grid-item">
+        <input type="text" disabled id="red-value" />
+      </div>
+      <div class="grid-item"><strong>(G) Green :</strong></div>
+      <div class="grid-item">
+        <input type="range" id="green" min="0" max="255" />
+      </div>
+      <div class="grid-item">
+        <input type="text" disabled id="green-value" />
+      </div>
+      <div class="grid-item"><strong>(B) Blue :</strong></div>
+      <div class="grid-item">
+        <input type="range" id="blue" min="0" max="255" />
+      </div>
+      <div class="grid-item">
+        <input type="text" disabled id="blue-value" />
+      </div>
+      <div class="grid-item"></div>
+      <div class="grid-item">
+        <div class="preview"></div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
